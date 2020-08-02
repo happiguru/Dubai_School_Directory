@@ -11,7 +11,7 @@
 
   .nav-header {
       top: 0;
-      z-index: 3;
+      z-index: 4;
   }
 
   .center-element {
@@ -22,7 +22,13 @@
     color: #a700ff;
   }
 
-.main-bg {
+  .header-h1 {
+      z-index: 3;
+      font-size: 1rem;
+      top: 100px;
+  }
+
+/* .main-bg {
     background-color: aqua;
     background-image: url(../images/main-bg-image.jpg);
     height: 200px;
@@ -30,7 +36,7 @@
     background-size: cover;
     background-position: center;
     background-origin: border-box;
-  }
+  } */
 
 .bg-gradient {
     position: relative;
