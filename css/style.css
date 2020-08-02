@@ -4,23 +4,61 @@
     padding: 0;
   }
 
-/* #region Mobile version (mobile: up to 768px) */
+  h1,
+  h2 {
+      color: #a700ff;
+  }
 
+  .center-element {
+    margin: 0 auto;
+}
 
+.center-element li a {
+    color: #a700ff;
+}
 
+  /* #region Mobile version (Tablet: up to 768px) */
+
+@media screen and (min-width: 768px) {
+img.logo-image {
+    width: 50% !important;
+    }
+
+}
+  /* #endregion */
+
+  /* #region Tablet version (Desktop: up to 1024px) */
+
+  @media screen and (min-width: 1023px) {
+
+    .center-element {
+        float: right;
+    }
+
+    .center-element li a {
+        font-size: 1.2rem;
+        /* color: #a700ff; */
+    }
+
+    .center-element li a > i {
+        font-size: 1.1rem;
+    }
+
+    .center-element li a > span {
+        margin-top: -2px;
+    }
+}
 
   /* #endregion */
 
-  /* #region Tablet version (tablet: up to 1024px) */
+  /* #region Desktop version (TV or Extra Large: from 1024px) */
 
-
-
-
-  /* #endregion */
-
-  /* #region Desktop version (desktop: from 1024px) */
-
-
-
+  @media screen and (min-width: 1024px) {
+    header {
+        font-family: 'Dubai Regular';
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+}
 
   /* #endregion */
