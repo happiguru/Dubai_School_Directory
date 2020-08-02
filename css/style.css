@@ -9,27 +9,72 @@
       color: #a700ff;
   }
 
+  .nav-header {
+      top: 0;
+      z-index: 3;
+  }
+
   .center-element {
     margin: 0 auto;
-}
+  }
 
 .center-element li a {
     color: #a700ff;
-}
+  }
+
+.main-bg {
+    background-color: aqua;
+    background-image: url(../images/main-bg-image.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+  }
+
+.bg-gradient {
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    background: rgb(8, 8, 8);
+    background: radial-gradient(circle, rgba(0,27,36,0.44021358543417366) 0%, rgba(9,9,121,0.5886729691876751) 50%, rgb(4, 23, 27) 100%);
+    height: 200px;
+  }
 
   /* #region Mobile version (Tablet: up to 768px) */
 
 @media screen and (min-width: 768px) {
-img.logo-image {
-    width: 50% !important;
+    img.logo-image {
+        width: 50% !important;
+        margin-top: 5px !important;
     }
 
+    .center-element li a > span {
+        margin-top: -3px;
+    }
+
+    .main-bg {
+        height: 300px;
+        background-position: center;
+    }
+    
+    .bg-gradient {
+        top: -300px;
+        height: 300px;
+    }
+
+    main.main-section {
+        margin-top: 45px !important;
+    }
 }
   /* #endregion */
 
   /* #region Tablet version (Desktop: up to 1024px) */
 
   @media screen and (min-width: 1023px) {
+    img.logo-image {
+        margin-top: -5px !important;
+    }
 
     .center-element {
         float: right;
@@ -37,7 +82,6 @@ img.logo-image {
 
     .center-element li a {
         font-size: 1.2rem;
-        /* color: #a700ff; */
     }
 
     .center-element li a > i {
@@ -47,17 +91,29 @@ img.logo-image {
     .center-element li a > span {
         margin-top: -2px;
     }
-}
+  }
 
   /* #endregion */
 
   /* #region Desktop version (TV or Extra Large: from 1024px) */
 
   @media screen and (min-width: 1024px) {
-    header {
-        font-family: 'Dubai Regular';
-        font-size: 2rem;
-        line-height: 1.5rem;
+    img.logo-image {
+        margin-top: -5px !important;
+    }
+
+    .center-element li a > span {
+        margin-top: -7px;
+    }
+    
+    .main-bg {
+        height: 400px;
+        background-position: center;
+    }
+    
+    .bg-gradient {
+        top: -400px;
+        height: 400px;
     }
 }
 
