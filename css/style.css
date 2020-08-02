@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* #region Mobile version (mobile: up to 768px) */
+
+
+
+
+  /* #endregion */
+
+  /* #region Tablet version (tablet: up to 1024px) */
+
+
+
+
+  /* #endregion */
+
+  /* #region Desktop version (desktop: from 1024px) */
+
+
+
+
+  /* #endregion */
