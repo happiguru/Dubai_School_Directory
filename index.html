@@ -14,11 +14,11 @@
         <header class="container-fluid nav-header bg-success position-fixed">
            <div class="row">
             <div class="col-sm-12 col-md-4 img-logo w-100">
-                <img class="d-block logo-image center-element float-lg-left ml-lg-5 w-50 mt-2" src="images/logo.png" alt="logo">
+                <img class="d-block logo-image center-element float-lg-left ml-lg-5 w-25 mt-2 pt-md-2 pt-lg-3" src="images/logo.png" alt="logo">
             </div>
             <nav class="col-sm-12 col-md-8 nav-medium w-100 px-md-5">
-                <ul class="navbar-nav d-flex flex-row justify-content-center center-element mt-md-2 mt-lg-3 justify-content-md-between justify-content-lg-end w-75">
-                    <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a></li>
+                <ul class="navbar-nav d-flex flex-row justify-content-center center-element mt-md-2 mt-lg-3 justify-content-md-between justify-content-lg-end w-50">
+                    <li class="nav-item"><a class="nav-link d-lg-flex ml-3 pr-4" href="#"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a></li>
                     <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="far fa-user"></i></i><span class="d-none d-lg-inline d-xl-inline pl-1 ">User</span></a></li>
                     <li class="nav-itemp"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-rss"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Blog</span></a></li>
                     <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-bars"></i><span class="d-none d-lg-inline d-xl-inline pl-1">More</span></a></li>
@@ -26,12 +26,21 @@
             </nav>
            </div>
         </header>
-        <main class="jumbotron-fluid main-section h-auto mt-5">
+        <main class="jumbotron-fluid main-section h-auto">
             <h1 class="position-relative header-h1 text-center text-light px-3">MADRASSA.. YOUR GATEWAY TO SCHOOLS IN DUBAI</h1>
-            <div class="main-bg w-100">
-                <img class="w-100" src="../images/main-bg-image.jpg">
+            <div class="main-bg">
             </div>
             <div class="bg-gradient w-100"></div>
+            <form class="d-block search-form border" action="#" method="POST">
+                <h6 class="text-dark px-2 pb-1 pt-2">Search by Key word</h6>
+                <div class="d-md-flex input-section">
+                    <input class="mx-2 mb-2 mx-md-0" type="text" name="search-input" required>
+                    <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submit" value="SEARCH">
+                </div>
+            </form>
+            <div class="how-it-works d-flex justify-content-center">
+                <button class="btn bg-light text-dark text-center">How it works</button>
+            </div>
         </main>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
