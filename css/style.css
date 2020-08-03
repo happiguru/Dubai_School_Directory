@@ -28,6 +28,10 @@
       top: 120px;
   }
 
+.main-section {
+    max-height: 450px;
+}
+
 .main-bg {
     background-color: aqua;
     background-image: url(../images/main-bg-image.jpg);
@@ -92,6 +96,10 @@
 
     .center-element li a > span {
         margin-top: -3px;
+    }
+
+    .main-section {
+        max-height: 570px;
     }
 
     .main-bg {
@@ -164,6 +172,10 @@
     }
     .header-h1 {
         top: 150px;
+    }
+
+    .main-section {
+        max-height: 440px;
     }
 
     main.main-section {
