@@ -86,6 +86,39 @@
     top: -650px;
   }
 
+  .instruction > h5 {
+      font-size: 1.5rem;
+  }
+
+  hr {
+      margin: 0 auto;
+      width: 50%;
+      border: 1px solid;
+  }
+
+  .instr-raduis {
+      width: 98%;
+      margin: 0 auto;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 210px;
+      max-height: 400px;
+  }
+
+  .instr-raduis > p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      padding: 5px 5px 10px 5px;
+  }
+
+  .instr-raduis > h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #a700ff;
+    margin-top: 7%;
+  }
+
   /* #region Mobile version (Tablet: up to 768px) */
 
 @media screen and (min-width: 768px) {
@@ -145,6 +178,19 @@
     .how-it-works {
         top: -790px;
       }
+
+      hr {
+       width: 25%;
+    }
+
+    .instr-raduis {
+        border-radius: 5px;
+    }
+
+    .article-holder {
+        width: 90% !important;
+        margin: 0 auto;
+    }
 }
   /* #endregion */
 
