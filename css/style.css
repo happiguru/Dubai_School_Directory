@@ -119,6 +119,50 @@
     margin-top: 7%;
   }
 
+  .flexbox-section,
+  .main-article {
+      display: flex;
+  }
+
+  .flexbox-section {
+      flex-direction: column;
+  }
+
+  .main-article {
+      flex-direction: row;
+      width: 92%;
+      margin: 0 auto;
+      justify-content: center;
+      opacity: 0.8;
+      border-radius: 5px;
+  }
+
+  .left-article {
+      width: 60%;
+      align-self: center;
+  }
+
+  .left-article > h6 {
+      text-decoration: underline;
+  }
+
+  .map-radius {
+      width: 40%;
+      /* height: 200px; */
+      align-self: center;
+  }
+
+  .map-radius > iframe {
+      border: 0;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+  }
+
+  .madrassa {
+      color: #a700ff;
+  }
+
   /* #region Mobile version (Tablet: up to 768px) */
 
 @media screen and (min-width: 768px) {
