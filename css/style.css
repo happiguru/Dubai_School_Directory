@@ -371,7 +371,30 @@ p.footer-social2 > a {
   /* filter */
 
   .filter {
-      margin-top: 90px;
+      margin-top: 110px;
+      background-color: rgb(216, 216, 216);
+  }
+
+  .sep {
+      width: 95%;
+      margin: 0 auto;
+  }
+
+  .sample {
+      width: 93%;
+      height: 300px;
+  }
+
+  .maps-aside {
+      width: 88%;
+      margin: 0 auto;
+      height: auto;
+  }
+
+  .align-center {
+      margin: 0 auto;
+      height: 250px;
+      max-height: 350px;
   }
 
   /* #endregion */
@@ -395,6 +418,16 @@ p.footer-social2 > a {
     .bg-gradient {
         top: -400px;
         height: 400px;
+    }
+
+    .maps-aside {
+        width: 93%;
+    }
+
+    .align-center {
+        margin: 0 auto;
+        height: 300px;
+        max-height: 350px;
     }
 }
 

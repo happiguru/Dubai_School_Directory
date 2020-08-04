@@ -18,7 +18,7 @@
              </div>
              <nav class="col-sm-12 col-md-8 nav-medium w-100 px-md-5">
                  <ul class="navbar-nav d-flex flex-row justify-content-center center-element mt-md-2 mt-lg-3 justify-content-md-between justify-content-lg-end w-50">
-                     <li class="nav-item"><a class="nav-link d-lg-flex ml-3 pr-4" href="#"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a></li>
+                     <li class="nav-item"><a class="nav-link d-lg-flex ml-3 pr-4" href="index.html"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a></li>
                      <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="far fa-user"></i></i><span class="d-none d-lg-inline d-xl-inline pl-1 ">User</span></a></li>
                      <li class="nav-itemp"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-rss"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Blog</span></a></li>
                      <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-bars"></i><span class="d-none d-lg-inline d-xl-inline pl-1">More</span></a></li>
@@ -27,15 +27,14 @@
             </div>
          </header>
          <main class="jumbotron-fluid filter">
-            <h5 class="text-center text-dark px-3">Filter by name, state, education system, school level.</h5>
-            <form class="d-block border" action="" target="_blank" method="POST">
-                <h6 class="text-dark px-2 pb-1 pt-2">Search by Key word</h6>
-                <div class="d-md-flex">
-                    <div class="form-group">
-                        <label for="sel1">SCHOOL NAME:*</label>
-                        <input class="mx-2 mb-2 mx-md-0" type="text" name="search-input" required>
-                      </div>
-                    <div class="form-group">
+            <form class="d-block border pt-4" action="" target="_blank" method="POST">
+                <h6 class="text-center text-dark px-3">Filter by name, state, education system, school level.</h6>
+                <div class="d-block d-md-flex flex-wrap">
+                    <div class="form-group px-3 pt-2">
+                        <label for="schoolname">SCHOOL NAME:*</label>
+                        <input class="ml-n1 form-control" id="schoolname" type="text" name="schoolname" required>
+                    </div>
+                    <div class="form-group px-3">
                         <label for="sel1">STATE:</label>
                         <select class="form-control" id="sel1">
                             <option></option>
@@ -47,37 +46,37 @@
                           <option>Ras Al kaimah</option>
                           <option>Um Al Quin</option>
                         </select>
-                      </div>
-                      <div class="form-group">
+                    </div>
+                    <div class="form-group px-3">
                         <label for="sel1">LEVEL:</label>
                         <select class="form-control" id="sel1">
                             <option></option>
-                          <option>Nursery</option>
-                          <option>Primary</option>
-                          <option>High School</option>
-                          <option>College</option>
+                            <option>Nursery</option>
+                            <option>Primary</option>
+                            <option>High School</option>
+                            <option>College</option>
                         </select>
-                      </div>
-                      <div class="form-group">
+                    </div>
+                    <div class="form-group px-3">
                         <label for="sel1">TYPE:</label>
                         <select class="form-control" id="sel1">
                             <option></option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
                         </select>
-                      </div>
-                      <div class="form-group">
+                    </div>
+                    <div class="form-group px-3">
                         <label for="sel1">GENDER:</label>
                         <select class="form-control" id="sel1">
                             <option></option>
-                          <option>Male</option>
-                          <option>Female</option>
-                          <option>Other</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
                         </select>
-                      </div>
-                      <div class="form-group">
+                    </div>
+                    <div class="form-group px-3">
                         <label for="sel1">CURRICULUM:</label>
                         <select class="form-control" id="sel1">
                             <option></option>
@@ -87,25 +86,48 @@
                           <option>Indian</option>
                           <option>Pakistani</option>
                         </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="sel1">CURRICULUM:</label>
-                        <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submitc" value="SEARCH">
-                      </div>
-                      <div class="form-group">
-                        <label for="sel1">CURRICULUM:</label>
-                        <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="reset" placeholder="Clear filter">
-                      </div>
+                    </div>
+                    <div class="form-group px-2">
+                        <label class="d-none" for="sel1"></label>
+                        <input class="btn mx-2 mb-0 mx-md-0 bg-danger text-white text-center" type="submitc" value="SEARCH">
+                    </div>
+                    <div class="form-group px-2">
+                        <label class="d-none" for="sel1"></label>
+                        <input class="btn mx-2 mb-1 mx-md-0 bg-danger text-white text-center" type="reset" placeholder="Clear filter">
+                    </div>
                 </div>
             </form>
         </main>
         <section>
-            <h4 class="py-5">Search Results Found 7 School(s)</h4>
+           <div class="sep">
+            <h4 class="pt-4 text-dark pb-2 text-center">Search Results Found 6 School(s)</h4>
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">Hello</div>
-                <div class="col-sm-12 col-md-6 col-lg-4">hello</div>
-                <div class="col-sm-12 col-md-6 col-lg-4">hello</div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <p class="sample bg-info mx-3"></p>
+                </div>
             </div>
+           </div>
+        </section>
+        <section>
+            <aside class="maps-aside">
+                <h5 class="py-2">School Lookups Maps</h5>
+                <iframe class="align-center border w-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d97087.73188733167!2d55.323191650888205!3d25.26911860784596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sschool%20in%20dubai!5e0!3m2!1sen!2sae!4v1596492239640!5m2!1sen!2sae" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </aside>
         </section>
          <footer class="bg-success">
             <div class="navbar-navz my-2">
