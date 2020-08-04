@@ -206,6 +206,25 @@ p.footer-social2 > a {
     font-size: 1.3rem !important;
 }
 
+/* School Information */
+
+.school-details {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+    height: 600px;
+}
+
+.search-info {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.morr-sect {
+    width: 100%;
+    margin: 0 auto;
+}
+
   /* #region Tablet version (Tablet: up to 768px) */
 
 @media screen and (min-width: 768px) {
