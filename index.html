@@ -31,11 +31,11 @@
             <div class="main-bg">
             </div>
             <div class="bg-gradient w-100"></div>
-            <form class="d-block search-form border" action="#" method="POST">
+            <form class="d-block search-form border" action="" target="_blank" method="POST">
                 <h6 class="text-dark px-2 pb-1 pt-2">Search by Key word</h6>
                 <div class="d-md-flex input-section">
-                    <input class="mx-2 mb-2 mx-md-0" type="text" name="search-input" required>
-                    <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submit" value="SEARCH">
+                    <input class="mx-2 mb-2 mx-md-0 w-75" type="text" name="search-input" required>
+                   <input class="btn mx-2 mb-3 mx-md-0 bg-danger w-25 text-white text-center" type="button" value="SEARCH" onclick="window.open('school-directory-search-results.html');">
                 </div>
             </form>
             <div class="how-it-works d-flex justify-content-center">
@@ -101,7 +101,7 @@
                     <img class="d-block align-center" src="images/school.jpg" alt="phone"/>
                 </div>
             </article>
-            <article class="col-sm-12 col-md-6 main-article3 my-md-2 bg-success border">
+            <article class="col-sm-12 col-md-6 col-lg-12 main-article3 my-md-2 bg-success border">
                 <div class="left-article order-md-2 mt-4 mb-3">
                     <h6 class="mx-3 text-light">Now on any device, anywhere, you can find a school</h6>
                     <p class="mx-3 text-light">It has never been easy but <strong class="madrassa"><em>Madrassa</em></strong> did it!!</p>
@@ -112,53 +112,58 @@
             </article>
         </section>
         <footer class="bg-success">
-            <div class="navbar-navz nav-container my-2">
-                <nav class="d-flex align-content-between pt-1 pt-md-3 flex-wrap float-l">
+            <div class="navbar-navz my-2">
+                <nav class="d-flex justify-content-center nav-container justify-content-md-start pt-1 pt-md-3 mt-3 flex-wrap border border-left-0 border-right-0 float-l">
                     <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-home d-none d-md-inline"></i> Home</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-search-location d-none d-md-inline"></i> Search</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-address-card d-none d-md-inline"></i> About Us</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-servicestack d-none d-md-inline"></i>Services</a></li>
                 </nav>
-                <nav class="d-flex align-content-between pt-0 pt-md-3 flex-wrap float-r">
+                <nav id="single-location" class="d-none d-lg-inline mt-3 border border-left-0 border-right-0">
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                </nav>
+                <nav class="d-flex justify-content-center nav-container justify-content-md-start mt-3 pt-0 pt-md-3 flex-wrap border border-left-0 border-right-0 float-r">
                     <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-facebook-square d-none d-md-inline"></i> Facebook</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-twitter-square d-none d-md-inline"></i> Twitter</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-instagram-square d-none d-md-inline"></i> Instagram</a></li>
-                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-youtube-square d-none d-md-inline"></i> YouTube</a></li>
                     <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-blogger d-none d-md-inline"></i> Blog</a></li>
                 </nav>
             </div>
             <div class="footer-1">
-                <div class="col-sm-12 col-md-4 subscribe bo">
-                    <h5 class="text-center">Subscribe</h5>
-                    <p class="text-center text-light px-4">Hellooooooo</p>
-                </div>
-                <div class="col-sm-12 col-md-4 contact">
-                    <h5 class="text-center">Contact</h5>
-                    <p class="text-center text-light px-4">Location: <span>Silicon Oasis Avenue, 1201L block - Dubai - UAE</span></p>
-                    <p class="text-center text-light px-4">Tel: <span>+971 55 2026 183</span></p>
-                </div>
-                <div class="col-sm-12 col-md-4 pb-4 about">
-                    <h5 class="text-center">About</h5>
-                    <p class="text-center text-light px-4">Madrassa provide parents a smart technology to find the best school for their children and for self study. We are serving the UAE for over 5 years. Over 30,000 schools are registered with us within the UAE. In Dubai, we are serving over 3,000 schools.</p>
+                <div class="row footer-one">
+                    <div class="col-sm-12 col-md-5 col-lg-4 subscribe">
+                        <h5 class="text-center py-3">Subscribe</h5>
+                        <form action="" method="POST">
+                            <div class="d-md-flex input-section">
+                                <input class="mx-2 mb-2 mx-md-0" type="email" name="email" placeholder="john@example.com" required>
+                                <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submit" value="SEARCH">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-4 contact">
+                        <h5 class="text-center py-3">Contact</h5>
+                        <p class="text-center text-light px-4">Location: <span>Silicon Oasis Avenue, 1201L block - Dubai - UAE</span></p>
+                        <p class="text-center text-light px-4">Tel: <span>+971 55 2026 183</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 pb-4 col-lg-4 about">
+                        <h5 class="text-center py-3">About</h5>
+                        <p class="text-center text-light px-4">We are serving the UAE for over 5 years. Over 30,000 schools are registered with us within the UAE. In Dubai, we are serving over 3,000 schools.</p>
+                    </div>
                 </div>
             </div>
             <div>
-                <div class="">
-                    <div class="">
-                        <p class="">
-                            Made with
-                            &amp;
-                            <a href="#" target="_blank" class="link color-inherit hover-white">
-                            </a>
-                            in <a href="#" target="_blank" class="link color-inherit hover-white">Bentonville</a>,
-                            <a href="#" target="_blank" class="link color-inherit hover-white">Boston</a>,
-                            <a href="#" target="_blank" class="link color-inherit hover-white">Joplin</a>,
-                            <a href="#" target="_blank" class="link color-inherit hover-white">Seattle</a>, and
-                            <a href="#" target="_blank" class="link color-inherit hover-white">Vergennes</a>.
+                <div class="d-flex justify-content-between">
+                    <div class="ml-4">
+                        <p class="footer-social2">
+                            <a href="#"><i class="fas fa-home"></i></a>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-youtube-square"></i></a>
+                            <a href="#"><i class="fab fa-blogger"></i></a>
                         </p>
                     </div>
-                    <div class="">
-                        <p class="">© Fonticons, Inc.</p>
+                    <div class="d-flex mr-4">
+                        <p class="">© Madrassa, Inc.</p>
                         <p class="">
                             <a href="/tos" class="link">Terms</a>
                             <a href="/privacy" class="link">Privacy</a>

@@ -4,12 +4,173 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="cssreset" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         <link href="font/dubaifont.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/cbdf2b0f0e.js" crossorigin="anonymous"></script>
         <title>School list results for Dubai school directory</title>
     </head>
     <body>
-
+        <header class="container-fluid nav-header bg-success position-fixed">
+            <div class="row">
+             <div class="col-sm-12 col-md-4 img-logo w-100">
+                 <img class="d-block logo-image center-element float-lg-left ml-lg-5 w-25 mt-2 pt-md-2 pt-lg-3" src="images/logo.png" alt="logo">
+             </div>
+             <nav class="col-sm-12 col-md-8 nav-medium w-100 px-md-5">
+                 <ul class="navbar-nav d-flex flex-row justify-content-center center-element mt-md-2 mt-lg-3 justify-content-md-between justify-content-lg-end w-50">
+                     <li class="nav-item"><a class="nav-link d-lg-flex ml-3 pr-4" href="#"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a></li>
+                     <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="far fa-user"></i></i><span class="d-none d-lg-inline d-xl-inline pl-1 ">User</span></a></li>
+                     <li class="nav-itemp"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-rss"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Blog</span></a></li>
+                     <li class="nav-item"><a class="nav-link d-lg-flex pr-4" href="#"><i class="fas fa-bars"></i><span class="d-none d-lg-inline d-xl-inline pl-1">More</span></a></li>
+                 </ul>
+             </nav>
+            </div>
+         </header>
+         <main class="jumbotron-fluid filter">
+            <h5 class="text-center text-dark px-3">Filter by name, state, education system, school level.</h5>
+            <form class="d-block border" action="" target="_blank" method="POST">
+                <h6 class="text-dark px-2 pb-1 pt-2">Search by Key word</h6>
+                <div class="d-md-flex">
+                    <div class="form-group">
+                        <label for="sel1">SCHOOL NAME:*</label>
+                        <input class="mx-2 mb-2 mx-md-0" type="text" name="search-input" required>
+                      </div>
+                    <div class="form-group">
+                        <label for="sel1">STATE:</label>
+                        <select class="form-control" id="sel1">
+                            <option></option>
+                            <option>Abu Dhabi</option>
+                          <option>Ajman</option>
+                          <option>Dubai</option>
+                          <option>Fujairah</option>
+                          <option>Sharjah</option>
+                          <option>Ras Al kaimah</option>
+                          <option>Um Al Quin</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">LEVEL:</label>
+                        <select class="form-control" id="sel1">
+                            <option></option>
+                          <option>Nursery</option>
+                          <option>Primary</option>
+                          <option>High School</option>
+                          <option>College</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">TYPE:</label>
+                        <select class="form-control" id="sel1">
+                            <option></option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">GENDER:</label>
+                        <select class="form-control" id="sel1">
+                            <option></option>
+                          <option>Male</option>
+                          <option>Female</option>
+                          <option>Other</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">CURRICULUM:</label>
+                        <select class="form-control" id="sel1">
+                            <option></option>
+                          <option>American</option>
+                          <option>British</option>
+                          <option>Canadian</option>
+                          <option>Indian</option>
+                          <option>Pakistani</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">CURRICULUM:</label>
+                        <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submitc" value="SEARCH">
+                      </div>
+                      <div class="form-group">
+                        <label for="sel1">CURRICULUM:</label>
+                        <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="reset" placeholder="Clear filter">
+                      </div>
+                </div>
+            </form>
+        </main>
+        <section>
+            <h4 class="py-5">Search Results Found 7 School(s)</h4>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">Hello</div>
+                <div class="col-sm-12 col-md-6 col-lg-4">hello</div>
+                <div class="col-sm-12 col-md-6 col-lg-4">hello</div>
+            </div>
+        </section>
+         <footer class="bg-success">
+            <div class="navbar-navz my-2">
+                <nav class="d-flex justify-content-center nav-container justify-content-md-start pt-1 pt-md-3 mt-3 flex-wrap border border-left-0 border-right-0 float-l">
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-home d-none d-md-inline"></i> Home</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-search-location d-none d-md-inline"></i> Search</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-address-card d-none d-md-inline"></i> About Us</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-servicestack d-none d-md-inline"></i>Services</a></li>
+                </nav>
+                <nav id="single-location" class="d-none d-lg-inline mt-3 border border-left-0 border-right-0">
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                </nav>
+                <nav class="d-flex justify-content-center nav-container justify-content-md-start mt-3 pt-0 pt-md-3 flex-wrap border border-left-0 border-right-0 float-r">
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-facebook-square d-none d-md-inline"></i> Facebook</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-twitter-square d-none d-md-inline"></i> Twitter</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-instagram-square d-none d-md-inline"></i> Instagram</a></li>
+                    <li class="link-item"><a class="nav-link" href="#"><i class="fab fa-blogger d-none d-md-inline"></i> Blog</a></li>
+                </nav>
+            </div>
+            <div class="footer-1">
+                <div class="row footer-one">
+                    <div class="col-sm-12 col-md-5 col-lg-4 subscribe">
+                        <h5 class="text-center py-3">Subscribe</h5>
+                        <form action="" method="POST">
+                            <div class="d-md-flex input-section">
+                                <input class="mx-2 mb-2 mx-md-0" type="email" name="email" placeholder="john@example.com" required>
+                                <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center" type="submit" value="SEARCH">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-4 contact">
+                        <h5 class="text-center py-3">Contact</h5>
+                        <p class="text-center text-light px-4">Location: <span>Silicon Oasis Avenue, 1201L block - Dubai - UAE</span></p>
+                        <p class="text-center text-light px-4">Tel: <span>+971 55 2026 183</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 pb-4 col-lg-4 about">
+                        <h5 class="text-center py-3">About</h5>
+                        <p class="text-center text-light px-4">We are serving the UAE for over 5 years. Over 30,000 schools are registered with us within the UAE. In Dubai, we are serving over 3,000 schools.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex justify-content-between">
+                    <div class="ml-4">
+                        <p class="footer-social2">
+                            <a href="#"><i class="fas fa-home"></i></a>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-youtube-square"></i></a>
+                            <a href="#"><i class="fab fa-blogger"></i></a>
+                        </p>
+                    </div>
+                    <div class="d-flex mr-4">
+                        <p class="">© Madrassa, Inc.</p>
+                        <p class="">
+                            <a href="/tos" class="link">Terms</a>
+                            <a href="/privacy" class="link">Privacy</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
