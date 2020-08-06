@@ -24,6 +24,11 @@ h2,
 }
 
 .b1 > a,
+.b2 > a {
+  font-size: 1rem;
+}
+
+.b1 > a,
 .b2 > a,
 .navbar-navz li a,
 .center-element li a,
@@ -271,11 +276,6 @@ footer {
   width: 100%;
 }
 
-.b1 > a,
-.b2 > a {
-  font-size: 1rem;
-}
-
 .b1 {
   display: none;
 }
@@ -484,7 +484,7 @@ footer {
 
   .filter {
     margin-top: 110px;
-  background-color: rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216);
   }
 
   .sep {
