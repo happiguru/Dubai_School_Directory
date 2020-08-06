@@ -19,6 +19,10 @@ h2,
   margin: 0 auto;
 }
 
+.footer-social2 > a {
+  font-size: 1.3rem !important;
+}
+
 .navbar-navz li a {
   color: #a700ff;
 }
@@ -206,10 +210,6 @@ hr {
 .footer-one {
   margin: 0 auto;
   width: 90%;
-}
-
-.footer-social2 > a {
-  font-size: 1.3rem !important;
 }
 
 /* School Information */
@@ -427,10 +427,6 @@ hr {
   margin: 0 auto;
 }
 
-.sample {
-  height: 400px auto !important;
-}
-
 .maps-aside {
   width: 88%;
   margin: 0 auto;
@@ -481,5 +477,4 @@ hr {
     max-height: 350px;
   }
 }
-
 /* #endregion */
