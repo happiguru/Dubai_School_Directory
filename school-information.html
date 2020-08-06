@@ -11,12 +11,12 @@
         <title>School Details - Dubai School Directory</title>
     </head>
     <body>
-        <header class="container-fluid nav-header bg-success position-fixed">
+        <header class="container-fluid nav-header bg-danger position-fixed">
             <div class="row">
                 <div class="col-sm-12 col-md-4 img-logo w-100">
                     <a href="index.html"><img class="d-block logo-image center-element float-lg-left ml-lg-5 w-25 mt-2 pt-md-2 pt-lg-3" src="images/logo.png" alt="logo" /></a>
                 </div>
-                <nav class="col-sm-12 col-md-8 nav-medium w-100 px-md-5">
+                <nav class="col-sm-12 col-md-8 w-100 px-md-5">
                     <ul class="navbar-nav d-flex flex-row justify-content-center center-element mt-md-2 mt-lg-3 justify-content-md-between justify-content-lg-end w-50">
                         <li class="nav-item">
                             <a class="nav-link d-lg-flex ml-3 pr-4" href="index.html"><i class="fas fa-search"></i><span class="d-none d-lg-inline d-xl-inline pl-1">Schools</span></a>
@@ -70,7 +70,7 @@
         <main class="jumbo">
             <form class="d-block border form-b pt-3" action="#" method="POST">
                 <h6 class="text-center text-dark px-3">Apply Now!!</h6>
-                <div class="d-block signup border">
+                <div class="d-block border">
                     <div class="form-group px-3 pt-2">
                         <label class="" for="firstname">FIRST NAME:*</label>
                         <input class="form-control" id="firstname" type="text" name="firstname" required />
@@ -81,7 +81,7 @@
                     </div>
                     <div class="form-group px-3">
                         <label for="email">EMAIL:</label>
-                        <input class="form-control" id="email" type="email" name="email" required />
+                        <input class="form-control border border-bottom-dash" id="email" type="email" name="email" required />
                     </div>
                     <div class="form-group px-3">
                         <label for="username">USERNAME:*</label>
@@ -106,69 +106,70 @@
                 </div>
             </form>
         </main>
-        <div>
+        <div class="my-3 view-more view-section1">
+            <a class="text-dark" href="#"><i class="fas fa-money-check"></i> CLICK HERE TO VIEW MORE DETAILS</a>
+        </div>
+        <div class="mt-3 view-section">
             <aside class="maps-aside">
-                <h5 class="py-2">School Lookups Maps</h5>
+                <h5 class="py-3 text-danger text-center"><i class="fas fa-map-marked-alt"></i> Maps Direction</h5>
                 <iframe
                     class="align-center border w-100"
                     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d97087.73188733167!2d55.323191650888205!3d25.26911860784596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sschool%20in%20dubai!5e0!3m2!1sen!2sae!4v1596492239640!5m2!1sen!2sae"
                 ></iframe>
             </aside>
         </div>
-        <footer class="bg-success">
+        <footer>
             <div class="navbar-navz my-2">
-                <ul class="d-flex justify-content-center nav-container justify-content-md-start pt-1 pt-md-3 mt-3 flex-wrap border border-left-0 border-right-0 float-l">
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fas fa-home d-none d-md-inline"></i> Home</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fas fa-search-location d-none d-md-inline"></i> Search</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fas fa-address-card d-none d-md-inline"></i> About Us</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fab fa-servicestack d-none d-md-inline"></i> Services</a>
-                    </li>
-                </ul>
-                <ul id="single-location" class="d-none d-lg-inline mt-3 border border-left-0 border-right-0">
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fas fa-map-marker-alt"></i></a>
-                    </li>
-                </ul>
-                <ul class="d-flex justify-content-center nav-container justify-content-md-start mt-3 pt-0 pt-md-3 flex-wrap border border-left-0 border-right-0 float-r">
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fab fa-facebook-square d-none d-md-inline"></i> Facebook</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fab fa-twitter-square d-none d-md-inline"></i> Twitter</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fab fa-instagram-square d-none d-md-inline"></i> Instagram</a>
-                    </li>
-                    <li class="link-item">
-                        <a class="nav-link" href="#"><i class="fab fa-blogger d-none d-md-inline"></i> Blog</a>
-                    </li>
-                </ul>
+                <div class="flex-container">
+                    <div class="b1 border border-dark border-left-0 border-right-0 pr-3">
+                        <a href="index.html"><i class="fas fa-home d-none d-lg-inline"></i> Home</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pr-3">
+                        <a href="school-directory-search-results.html"><i class="fas fa-search-location d-none d-lg-inline"></i> Search</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pr-3">
+                        <a href="#"><i class="fas fa-address-card d-none d-lg-inline"></i> About Us</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pr-3">
+                        <a href="#"><i class="fab fa-servicestack d-none d-lg-inline"></i> Services</a>
+                    </div>
+                    <div class="b2 border border-dark">
+                        <a class="text-center h2" href="index.html">
+                                <i class="fas fa-map-marker-alt pt-2 " aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pl-3">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square d-none d-lg-inline"></i> Facebook</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pl-3">
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square d-none d-lg-inline"></i> Twitter</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pl-3">
+                        <a href="https://www.blogger.com/about/"><i class="fab fa-blogger d-none d-lg-inline"></i> Blog</a>
+                    </div>
+                    <div class="b1 border border-dark border-left-0 border-right-0 pl-3">
+                        <a href="https://www.google.com/"><i class="fab fa-google-plus-square d-none d-lg-inline"></i> Google+</a>
+                    </div>
+                </div>
             </div>
-            <div class="footer-1">
+            <div>
                 <div class="row footer-one">
-                    <div class="col-sm-12 col-md-5 col-lg-4 subscribe">
-                        <h5 class="text-center py-3">Subscribe</h5>
+                    <div class="col-sm-12 col-md-5 col-lg-4">
+                        <h5 class="text-center py-3 text-white">Subscribe</h5>
                         <form action="#" method="POST">
                             <div class="d-md-flex input-section">
                                 <input class="mx-2 mb-2 mx-md-0 email-submit" type="email" name="email" placeholder="john@example.com" required />
-                                <input class="btn mx-2 mb-3 mx-md-0 bg-danger text-white text-center search-submit" type="submit" value="SEARCH" />
+                                <input class="btn mx-2 mb-2 mx-md-0 bg-danger text-white text-center search-submit" type="submit" value="SEARCH" />
                             </div>
                         </form>
                     </div>
-                    <div class="col-sm-12 col-md-3 col-lg-4 contact">
-                        <h5 class="text-center py-3">Contact</h5>
+                    <div class="col-sm-12 col-md-3 col-lg-4">
+                        <h5 class="text-center py-3 text-white">Contact</h5>
                         <p class="text-center text-light px-4">Location: <span>Silicon Oasis Avenue, 1201L block - Dubai - UAE</span></p>
                         <p class="text-center text-light px-4">Tel: <span>+971 55 2026 183</span></p>
                     </div>
-                    <div class="col-sm-12 col-md-4 pb-4 col-lg-4 about">
-                        <h5 class="text-center py-3">About</h5>
+                    <div class="col-sm-12 col-md-4 pb-4 col-lg-4">
+                        <h5 class="text-center py-3 text-white">About</h5>
                         <p class="text-center text-light px-4">We are serving the UAE for over 5 years. Over 30,000 schools are registered with us within the UAE. In Dubai, we are serving over 3,000 schools.</p>
                     </div>
                 </div>

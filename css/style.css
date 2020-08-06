@@ -7,7 +7,7 @@
 h1,
 h2,
 .color {
-  color: #a700ff;
+  color: #000;
 }
 
 .nav-header {
@@ -23,16 +23,16 @@ h2,
   font-size: 1.3rem !important;
 }
 
-.navbar-navz li a {
-  color: #a700ff;
-}
-
-.center-element li a {
-  color: #a700ff;
+.navbar-navz li a,
+.center-element li a,
+.b1 > a,
+.b2 > a,
+.madrassa  {
+  color: #fff;
 }
 
 .center-element li a:hover {
-  color: #f5f3f7;
+  color: #f55;
 }
 
 .header-h1 {
@@ -137,7 +137,7 @@ hr {
 .instr-raduis > h4 {
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #a700ff;
+  color: #000;
   margin-top: 7%;
 }
 
@@ -172,22 +172,12 @@ hr {
   align-self: center;
 }
 
+.map-radius > img,
 .map-radius > iframe {
   border: 0;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-}
-
-.map-radius > img {
-  border: 0;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.madrassa {
-  color: #a700ff;
 }
 
 .navbar-navz {
@@ -205,6 +195,10 @@ hr {
 
 .nav-container li a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background: #000;
 }
 
 .footer-one {
@@ -236,16 +230,60 @@ hr {
   margin-left: -22px;
 }
 
+.jumbo,
+.view-more {
+  background-color: #e9ecef;
+}
+
 .jumbo {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
   border-radius: 0.3rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .sample {
   width: 93%;
   height: 530px;
+}
+
+.view-section1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.view-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.view-more {
+  height: 40px;
+  font-size: 1.4rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.b1 > a,
+.b2 > a {
+  font-size: 1rem;
+}
+
+.b1 {
+  display: none;
+}
+
+.b2 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 /* #region Tablet version (Tablet: up to 768px) */
@@ -339,6 +377,16 @@ hr {
     flex-direction: row;
   }
 
+  .b1 {
+    display: inline;
+  }
+
+  .b1 > a,
+  .b2 > a {
+    font-size: 1.2rem;
+    padding-left: 5px;
+  }
+
   .navbar-navz {
     flex-direction: row;
   }
@@ -357,6 +405,14 @@ hr {
 
   .clearfix {
     clear: both;
+  }
+
+  .view-section {
+    width: 97%;
+  }
+
+  .flex-container {
+    margin-left: 0;
   }
 }
 
@@ -413,6 +469,10 @@ hr {
   .navbar-navz {
     justify-content: space-around;
   }
+
+  .flex-container {
+    margin-left: -10px;
+  }
 }
 
 /* filter */
@@ -443,6 +503,12 @@ hr {
   width: 60%;
   margin: 0 auto;
 }
+
+.b1 > a,
+  .b2 > a {
+    font-size: 1.4rem;
+    padding-left: 10px;
+  }
 
 /* #endregion */
 

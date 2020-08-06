@@ -12,7 +12,7 @@ This project is a directory of schools in Dubai
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/happiguru/Dubai_School_Directory/Feature-branch-DSD/index.html)
+[Live Demo Link](https://rawcdn.githack.com/happiguru/Dubai_School_Directory/b9f17bd8050204ae36f5a96ad7e2431225bb7f6b/index.html)
 
 
 ## Getting Started
