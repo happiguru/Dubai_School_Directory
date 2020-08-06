@@ -9,6 +9,19 @@ This project is a directory of schools in Dubai
 
 - HTML
 - CSS
+- BOOTSTRAP 4.5
+
+- This project implements core functionalities in CSS3 such as:
+
+1. Flexbox
+2. Bootstrap Grid
+3. Positioning Using Float, relative, fixed, z-index, and absolute
+4. HTML Semantics
+5. CSS Gradient
+6. Responsiveness
+7. UI/UX implementation
+
+- And more
 
 ## Live Demo
 
