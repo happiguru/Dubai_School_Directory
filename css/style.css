@@ -33,9 +33,9 @@ img.logo-image {
 }
 
 .b2 > a {
-    font-size: 1.6rem;
-    padding-left: 10px;
-  }
+  font-size: 1.6rem;
+  padding-left: 10px;
+}
 
 .b1 > a,
 .b2 > a,
@@ -394,7 +394,6 @@ footer {
     font-size: 1.2rem;
     padding-left: 10px;
   }
-
 
   .b1 {
     display: inline;
