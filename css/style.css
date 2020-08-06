@@ -19,6 +19,10 @@ h2,
   margin: 0 auto;
 }
 
+.navbar-navz li a {
+  color: #a700ff;
+}
+
 .center-element li a {
   color: #a700ff;
 }
@@ -199,10 +203,6 @@ hr {
   text-decoration: underline;
 }
 
-.navbar-navz li a {
-  color: #a700ff;
-}
-
 .footer-one {
   margin: 0 auto;
   width: 90%;
@@ -359,7 +359,9 @@ hr {
     clear: both;
   }
 }
+
 /* #endregion */
+
 /* #region Desktop version (Desktop: up to 1024px) */
 
 @media screen and (min-width: 1023px) {
@@ -426,7 +428,6 @@ hr {
 }
 
 .sample {
-  width: 93%;
   height: 400px auto !important;
 }
 
@@ -448,6 +449,7 @@ hr {
 }
 
 /* #endregion */
+
 /* #region TV and extra large screen version (TV or Extra Large: from 1024px) */
 
 @media screen and (min-width: 1024px) {
@@ -479,4 +481,5 @@ hr {
     max-height: 350px;
   }
 }
+
 /* #endregion */
