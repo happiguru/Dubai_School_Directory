@@ -23,11 +23,11 @@ h2,
   font-size: 1.3rem !important;
 }
 
-.navbar-navz li a,
-.center-element li a,
 .b1 > a,
 .b2 > a,
-.madrassa  {
+.navbar-navz li a,
+.center-element li a,
+.madrassa {
   color: #fff;
 }
 
@@ -237,10 +237,10 @@ footer {
 
 .jumbo {
   padding: 1rem 1rem;
-  margin-bottom: 2rem;
   border-radius: 0.3rem;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 .sample {
@@ -429,6 +429,12 @@ footer {
     float: right;
   }
 
+  .b1 > a,
+  .b2 > a {
+    font-size: 1.4rem;
+    padding-left: 10px;
+  }
+
   .center-element li a {
     font-size: 1.2rem;
   }
@@ -473,42 +479,36 @@ footer {
   .flex-container {
     margin-left: -10px;
   }
-}
 
-/* filter */
+  /* filter */
 
-.filter {
-  margin-top: 110px;
+  .filter {
+    margin-top: 110px;
   background-color: rgb(216, 216, 216);
-}
-
-.sep {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.maps-aside {
-  width: 88%;
-  margin: 0 auto;
-  height: auto;
-}
-
-.align-center {
-  margin: 0 auto;
-  height: 250px;
-  max-height: 350px;
-}
-
-.form-b {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.b1 > a,
-  .b2 > a {
-    font-size: 1.4rem;
-    padding-left: 10px;
   }
+
+  .sep {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .maps-aside {
+    width: 88%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .align-center {
+    margin: 0 auto;
+    height: 250px;
+    max-height: 350px;
+  }
+
+  .form-b {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
 
 /* #endregion */
 
