@@ -19,14 +19,23 @@ h2,
   margin: 0 auto;
 }
 
-.footer-social2 > a {
-  font-size: 1.3rem !important;
+img.logo-image {
+  width: 25%;
+  margin-top: 5px;
 }
 
-.b1 > a,
-.b2 > a {
+.footer-social2 > a {
+  font-size: 1.3rem;
+}
+
+.b1 > a {
   font-size: 1rem;
 }
+
+.b2 > a {
+    font-size: 1.6rem;
+    padding-left: 10px;
+  }
 
 .b1 > a,
 .b2 > a,
@@ -104,7 +113,7 @@ h2,
 }
 
 .search-submit {
-  width: 95% !important;
+  width: 95%;
 }
 
 .how-it-works {
@@ -290,8 +299,8 @@ footer {
 
 @media screen and (min-width: 768px) {
   img.logo-image {
-    width: 50% !important;
-    margin-top: 5px !important;
+    width: 50%;
+    margin-top: 5px;
   }
 
   .center-element li a > span {
@@ -320,7 +329,7 @@ footer {
   }
 
   main.main-section {
-    margin-top: -50px !important;
+    margin-top: -50px;
   }
 
   .search-form {
@@ -339,7 +348,7 @@ footer {
   }
 
   .search-submit {
-    width: 30% !important;
+    width: 30%;
     height: 38px;
   }
 
@@ -360,12 +369,12 @@ footer {
   }
 
   .article-holder {
-    width: 90% !important;
+    width: 90%;
     margin: 0 auto;
   }
 
   .flexbox-section {
-    flex-direction: row !important;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 83%;
     margin: 0 auto;
@@ -377,14 +386,18 @@ footer {
     flex-direction: row;
   }
 
-  .b1 {
-    display: inline;
+  .b1 > a {
+    font-size: 1.2rem;
   }
 
-  .b1 > a,
   .b2 > a {
     font-size: 1.2rem;
-    padding-left: 5px;
+    padding-left: 10px;
+  }
+
+
+  .b1 {
+    display: inline;
   }
 
   .navbar-navz {
@@ -421,10 +434,6 @@ footer {
 /* #region Desktop version (Desktop: up to 1024px) */
 
 @media screen and (min-width: 1023px) {
-  img.logo-image {
-    margin-top: -5px !important;
-  }
-
   .center-element {
     float: right;
   }
@@ -456,7 +465,7 @@ footer {
   }
 
   main.main-section {
-    margin-top: -5px !important;
+    margin-top: -5px;
   }
 
   .search-form {
@@ -515,10 +524,6 @@ footer {
 /* #region TV and extra large screen version (TV or Extra Large: from 1024px) */
 
 @media screen and (min-width: 1024px) {
-  img.logo-image {
-    margin-top: -5px !important;
-  }
-
   .center-element li a > span {
     margin-top: -7px;
   }
