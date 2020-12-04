@@ -1,9 +1,15 @@
 # Dubai_School_Directory
-This project is a directory of schools in Dubai
+This project depicts a directory of kindergarten, secondary and high schools in Dubai.
+Madrassa Dubai is a classified online school directory designed to facilitate parents in the process to search for the best schools to enroll their kids.
+It provides the following features:
 
-
+1. Allow users to create an account.
+2. Allow users to search for schools found in Dubai based on their search criteria.
+3. Give a deep explanation of the kind of curriculum available in every selected school.
+4. Provides information about the overall performance of any school selected.
+5. Guide for parents and more
+This project was implemented using HTML5, CSS3, Bootstrap and, JavaScript.
 ![screenshot](app_screenshot.png)
-
 
 ## Built With
 
