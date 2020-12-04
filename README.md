@@ -9,6 +9,7 @@ It provides the following features:
 4. Provides information about the overall performance of any school selected.
 5. Guide for parents and more
 This project was implemented using HTML5, CSS3, Bootstrap and, JavaScript.
+
 ![screenshot](app_screenshot.png)
 
 ## Built With
